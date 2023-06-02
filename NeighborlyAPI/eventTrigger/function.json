@@ -4,7 +4,9 @@
     {
       "type": "eventGridTrigger",
       "name": "event",
-      "direction": "in"
+      "direction": "in",
+      "eventHubName": "eventhubquyetnt7",
+      "connection": "Endpoint=sb://quyetnt7eh1.servicebus.windows.net/;SharedAccessKeyName=policy;SharedAccessKey=qbeeI5PqjzWJjYv4sYFAItpNIklNhRyVR+AEhP4kXZA=;EntityPath=eventhubquyetnt7"
     }
   ]
 }
